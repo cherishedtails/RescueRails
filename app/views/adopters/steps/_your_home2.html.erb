@@ -6,6 +6,13 @@
   </div>
 </div>
 <div class="control-group">
+  <%= af.label :dog_exercise, "Do you have a fully fenced yard?", :class => "control-label" %>
+  <div class="controls">
+    <%= af.text_area :dog_exercise, :class => "required input-xlarge", :rows => "3"%>
+    <span class="help-inline">Describe yard, nearby parks and family activities.</span>
+  </div>
+</div>
+<div class="control-group">
   <%= af.label :dog_stay_when_away, "Where will your dog stay when you're away from home?", :class => "control-label" %>
   <div class="controls">
     <label>
